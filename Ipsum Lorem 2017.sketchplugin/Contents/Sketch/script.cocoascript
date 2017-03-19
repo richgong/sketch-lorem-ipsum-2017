@@ -6,6 +6,7 @@ function fillLayers(layers) {
         var layer = layers[i];
         if (layer.className() == "MSTextLayer") {
             [layer setStringValue:loremText];
+            [layer setName:"Lorem Ipsum"];
             count += 1;
         } else if (layer.className() == "MSLayerGroup")){
             count += fillLayer(layer.layers());

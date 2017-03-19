@@ -3,11 +3,12 @@
   "commands" : [
     {
       "script" : "script.cocoascript",
-      "name" : "Ipsum Lorem 2017",
+      "name" : "Fill out text fields",
       "handlers" : {
         "run" : "onRun"
       },
-      "identifier" : "com.baylaunch.lorem.run"
+      "identifier" : "com.baylaunch.lorem.run",
+      "shortcut" : "shift ctrl l"
     }
   ],
   "menu" : {
