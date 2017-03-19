@@ -1,0 +1,24 @@
+{
+  "author" : "Richard Gong",
+  "commands" : [
+    {
+      "script" : "script.cocoascript",
+      "name" : "Ipsum Lorem 2017",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "com.bohemiancoding.sketch.runscriptidentifier"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "com.bohemiancoding.sketch.runscriptidentifier"
+    ],
+    "title" : "Ipsum Lorem 2017"
+  },
+  "identifier" : "com.baylaunch.loremipsum",
+  "version" : "1.0",
+  "description" : "A Sketch plugin to generate lorem ipsum text.",
+  "authorEmail" : "",
+  "name" : "Ipsum Lorem 2017"
+}
