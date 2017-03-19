@@ -17,7 +17,7 @@ function fillLayers(layers) {
 function onRun(context) {
     var count = fillLayers(context.selection)
     if (count == 0) {
-        context.api().alert("Oops", "Please select some text objects.");
+        context.api().alert("Please select some text objects.", "Oops!");
     } else {
         log("Filled: " + count);
     }

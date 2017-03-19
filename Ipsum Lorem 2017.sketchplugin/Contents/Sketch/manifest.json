@@ -7,16 +7,16 @@
       "handlers" : {
         "run" : "onRun"
       },
-      "identifier" : "com.bohemiancoding.sketch.runscriptidentifier"
+      "identifier" : "com.baylaunch.lorem.run"
     }
   ],
   "menu" : {
     "items" : [
-      "com.bohemiancoding.sketch.runscriptidentifier"
+      "com.baylaunch.lorem.run"
     ],
     "title" : "Ipsum Lorem 2017"
   },
-  "identifier" : "com.baylaunch.loremipsum",
+  "identifier" : "com.baylaunch.lorem",
   "version" : "1.0",
   "description" : "A Sketch plugin to generate lorem ipsum text.",
   "authorEmail" : "",
